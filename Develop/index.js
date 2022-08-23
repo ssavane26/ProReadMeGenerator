@@ -54,12 +54,26 @@ function init () {
         name: 'Contribution',
         message: 'How can others contribute to your project.',
       },
-    ]);
-  }; 
+    ])
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+.then((data) => {
+  const fileName = generate(data)
+  writeToFile(fileName, data)
+  console.log('README Created!')
+  
+ 
 
+ 
+   
+    
+
+   })
+}
+ 
+
+// Function call to initialize app
+init();
 
 
 // Function call to initialize app
