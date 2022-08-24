@@ -24,8 +24,11 @@ function renderLicenseLink(license) {
   if (license === "Apache 2.0"){
     return `(https://opensource.org/licenses/Apache-2.0)`
   }
-  if (license === "Mozilla Public License 2.0"){
-    return `(https://opensource.org/licenses/MPL-2.0)`
+  if (license === "GPL 3.0"){
+    return `(https://www.gnu.org/licenses/gpl-3.0)`
+  }
+  if (license === "BSD 3"){
+    return `(https://opensource.org/licenses/BSD-3-Clause)`
   }
   else if (license === "none"){
     return "";
@@ -41,7 +44,10 @@ function renderLicenseSection(license) {
   if(license === "Apache 2.0") {
     return `# License`
   }
-  if(license === "Mozilla Public License 2.0") {
+  if(license === "GPL 3.0") {
+    return `# License`
+  }
+  if(license === "BSD 3") {
     return `# License`
   }
   else if (license ===  "Unlicensed"){
@@ -52,21 +58,21 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return (
-     `# ${data.title}
+     `# ${data.Title}
   ${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
-  # Desctiption
+  # Description
   ${data.Description}
   # Table of Contents
-    * [Installation](#Installation)
-    * [Usage](#Usage)
-    * [License](#License)
-    * [Tests](#Tests)
-    * [Questions](#Questions)
-    * [Contributing](#Contributing)
+    - [Installation](#Installation)
+    - [Usage](#Usage)
+    - [License](#License)
+    - [Tests](#Tests)
+    - [Questions](#Questions)
+    - [Contributing](#Contributing)
   # Installation
-  ${data.Installation}
+  ${data.Command}
   # Usage
-  ${data.Usage}
+  ${data.Use}
   ${renderLicenseSection(data.license)}
   ${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
   # Contributions
@@ -75,8 +81,7 @@ function generateMarkdown(data) {
   ${data.Test}
   # Questions
   Reach out at:
-  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/${data.Github})
-  [![Email badge](https://img.shields.io/badge/Email-${data.Email}-red.svg)](mailto:${data.Email})
+  <a href='https://github.com/${data.username}'>GitHub</a> or by email @ ${data.Email}
   `);
   
   }

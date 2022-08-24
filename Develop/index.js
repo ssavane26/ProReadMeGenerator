@@ -9,7 +9,7 @@ function init () {
      inquirer.prompt([
       {
         type: 'input',
-        name: 'Name',
+        name: 'Github',
         message: 'Enter Your GitHub username:',
       },
       {
