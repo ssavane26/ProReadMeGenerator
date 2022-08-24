@@ -37,6 +37,7 @@ Please run the following command to install the required depdencies:
 
 # Usage 
 Video demonstrating application functionality below ⬇️:
+Sample Read Me available in "Application Functionality" Folder
 
 https://user-images.githubusercontent.com/106548100/186300750-a199db63-9525-46a4-8772-814a044d48e8.mp4
 
