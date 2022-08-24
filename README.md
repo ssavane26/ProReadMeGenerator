@@ -18,7 +18,7 @@ SO THAT I can quickly create a professional README for a new project
 - [Usage](#usage)
 - [Questions](#questions)
 # Description 
-Command line based program that allows users to quickly generate a README.md file for their respective repository. 
+Terminal/Command line application that allows users to quickly generate a README.md file for their repository. 
 
 
 # Programming Languages Utilized: 
@@ -37,7 +37,6 @@ Please run the following command to install the required depdencies:
 
 # Usage 
 Video demonstrating application functionality below ⬇️:
-
 
 
 
