@@ -1,7 +1,6 @@
-# Pro ReadMeGen
-  [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
+# Pro ReadMe Gen
   # Description
-  Allows user to create a Clean Markdown File
+  Allows user to develop a readMe File
   # Table of Contents
     - [Installation](#Installation)
     - [Usage](#Usage)
@@ -10,15 +9,15 @@
     - [Questions](#Questions)
     - [Contributing](#Contributing)
   # Installation
-  NPM Install
+  NPM install
   # Usage
-  For MarkDown Creation
+  For MarkDown Files
   # License
   [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
   # Contributions
-  Email
+  email
   # Tests
-  NPM RUN
+  npm run
   # Questions
   Reach out at:
   <a href='https://github.com/undefined'>GitHub</a> or by email @ savaneprod@gmail.com
