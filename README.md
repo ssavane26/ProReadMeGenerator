@@ -16,6 +16,7 @@ SO THAT I can quickly create a professional README for a new project
 - [Programming Languages Utilized:](#programming-languages-utilized)
 - [Installation:](#installation)
 - [Usage](#usage)
+  - [Sample Read Me available in "Application Functionality" Folder](#sample-read-me-available-in-application-functionality-folder)
 - [Questions](#questions)
 # Description 
 Terminal/Command line application that allows users to quickly generate a README.md file for their repository. 
@@ -37,9 +38,11 @@ Please run the following command to install the required depdencies:
 
 # Usage 
 Video demonstrating application functionality below ⬇️:
-Sample Read Me available in "Application Functionality" Folder
+
 
 https://user-images.githubusercontent.com/106548100/186300750-a199db63-9525-46a4-8772-814a044d48e8.mp4
+
+## Sample Read Me available in "Application Functionality" Folder
 
 
 
